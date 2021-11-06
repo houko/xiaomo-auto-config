@@ -1,9 +1,14 @@
-# terraform 管理
+echo 开始安装terraform多版本管理工具tfenv
 brew install tfenv
-tfenv install 1.0.9
-tfenv use 1.0.9
+
+echo 开始安装terraform1.0.10
+tfenv install 1.0.10
+
+echo 设置默认版本为1.0.10
+tfenv use 1.0.10
+
+echo 当前terraform版本
 terraform -v
 
-# terraform config
-ln -sf "$BASE_DIR/source/terraform/terrmaformrc" "$HOME/.terrmaformrc"
-echo "$BASE_DIR/source/terraform/terrmaformrc" link to "$HOME/.terrmaformrc"
+echo 生成terraform配置软连接
+ln -sf "$BASE_DIR/terraform/terrmaformrc" "$HOME/.terrmaformrc"

@@ -1,3 +1,7 @@
+BASE_DIR="$HOME/.xiaomo/source"
+
+echo 开始安装片段管理工具snpae
 pip3 install snape
-ln -sf "$BASE_DIR/source/snape/snape.json" "$HOME/.snape.json"
-echo "$BASE_DIR/source/snape/snape.json" link to "$HOME/.snape.json"
+
+echo 开始生成snape默认snape片段
+ln -sf "$BASE_DIR/snape/snape.json" "$HOME/.snape.json"

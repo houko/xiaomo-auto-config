@@ -1,5 +1,5 @@
-# firefox浏览器
+echo 开始安装firefox浏览器
 brew install google-chrome
 
-# google 浏览器
+echo 开始安装google浏览器
 brew install firefox

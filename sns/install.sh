@@ -1,11 +1,11 @@
-# clickup
+echo 开始安装clickup
 brew install clickup
 
-# 钉钉
+echo 开始安装dingtalk
 brew install dingtalk
 
-# lark
+echo 开始安装lark
 brew install lark
 
-# wechat
+echo 开始安装wechat
 brew install wechat

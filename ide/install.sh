@@ -1,28 +1,25 @@
-# markdown编辑器
+echo 开始安装markdown编辑器 typora
 brew install typora
 
-# s3管理工具
+echo 开始安装s3管理GUI cyberduck
 brew install cyberduck
 
-# vscode
+echo 开始安装vscode
 brew install visual-studio-code
 
-# ssh client
+echo 开始安装ssh客户端工具royal-tsx
 brew install royal-tsx
 
-# sublime
+echo 开始安装sublime-text
 brew install sublime-text
 
-# idea
+echo 开始安装 idea
 brew install intellij-idea
 
-# tmux
-brew install tmux
-
-# emacs
+echo 开始安装emacs
 brew install emacs
 
-# 数据库连接软件
+echo 开始安装数据库客户端sequel-ace
 brew install sequel-ace
 
 # tableplus免费版

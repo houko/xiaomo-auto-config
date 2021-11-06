@@ -1,3 +1,2 @@
-
-  # 虚拟机
-  brew install parallels
+echo 开始安装虚拟机parallels
+brew install parallels

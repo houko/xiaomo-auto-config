@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="$HOME/.xiaomo"
+BASE_DIR="$HOME/.xiaomo/source"
 
 # configuration steps
 rmGithubSource() {

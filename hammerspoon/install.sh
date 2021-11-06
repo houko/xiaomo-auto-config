@@ -1,6 +1,7 @@
-BASE_DIR="$HOME/.xiaomo"
-# mac 增强工具
+BASE_DIR="$HOME/.xiaomo/source"
+
+echo 开始安装hammerspoon
 brew install hammerspoon
 
-ln -sf "$BASE_DIR/source/hammerspoon" "$HOME/.hammerspoon"
-echo "$BASE_DIR/source/hammerspoon" link to "$HOME/.hammerspoon"
+echo 安装hammerspoon插件 "$BASE_DIR/hammerspoon" link to "$HOME/.hammerspoon"
+ln -sf "$BASE_DIR/hammerspoon" "$HOME/.hammerspoon"

@@ -1,37 +1,39 @@
-# 英语纠错工具
+echo 开始安装英语纠错工具grammarly
 brew install grammarly
 
-# 可以生成树形结构
+echo 安装生成树形结构工具tree
 brew install tree
 tree --version
 
-# api查看工具
+echo 开始安装api查看工具dash
 brew install homebrew/cask/dash
 
-# 日历小组件
+echo 开始安装日历小组件itsycal
 brew install itsycal
 
-# gif录制工具
+echo 开始安装gif录制工具licecap
 brew install licecap
 
-# hosts管理工具
+echo 开始安装hosts管理工具switchhosts
 brew install switchhosts
 
-# 终端工具
+echo 开始安装终端工具iterm2
 brew install iterm2
 
-# postman
+echo 开始安装api调试工具postman
 brew install --cask postman
-# alfred4
+
+echo 开始安装alfred4
 brew install alfred
 
-# figma
+echo 开始安装figma
 brew install figma
 
-# 禁用mac自带键盘
+echo 开始安装禁用mac自带键盘
 brew install karabiner-elements
 
-# google chrome
+echo 开始装google drive
 brew install google-drive
-# 流程图、UML等
+
+echo 开始安装流程图、UML工具drawio
 brew install drawio
