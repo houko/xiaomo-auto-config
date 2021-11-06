@@ -26,7 +26,7 @@ sh $BASE_DIR/git/install.sh
 
 sh $BASE_DIR/golang/install.sh
 
-sh $BASE_DIR/hammersoon/install.sh
+sh $BASE_DIR/hammerspoon/install.sh
 
 sh $BASE_DIR/ide/install.sh
 

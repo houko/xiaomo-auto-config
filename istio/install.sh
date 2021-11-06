@@ -1,5 +1,5 @@
-echo istioctl
+echo 🍐istioctl
 brew install istioctl
 
-echo istioctl版本
+echo 🍐 istioctl版本
 istioctl version
