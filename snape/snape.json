@@ -24,7 +24,7 @@
     "lang": "Bash"
   },
   "awk delete line with pattern": {
-    "content": "echo $line\n/websites/webapps/Auski_Test/Auski_Test_log\ncat /mac_config/fstab | awk -v l=$line '{if($1!=l) print $0}'",
+    "content": "echo $line\n/websites/webapps/Auski_Test/Auski_Test_log\ncat /source/fstab | awk -v l=$line '{if($1!=l) print $0}'",
     "lang": "Bash"
   },
   "awk print line if field not starts with": {
@@ -136,7 +136,7 @@
     "lang": "Bash"
   },
   "increase inotify watchers": {
-    "content": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /mac_config/sysctl.conf && sudo sysctl -p",
+    "content": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /source/sysctl.conf && sudo sysctl -p",
     "lang": "Bash"
   },
   "linux dir in Windows": {
