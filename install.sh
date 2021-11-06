@@ -20,8 +20,6 @@ sh $BASE_DIR/browser/install.sh
 
 sh $BASE_DIR/common/install.sh #通用工具：git、gun工具、字体
 
-sh $BASE_DIR/docker/install.sh
-
 sh $BASE_DIR/fzf/install.sh
 
 sh $BASE_DIR/git/install.sh
@@ -35,6 +33,8 @@ sh $BASE_DIR/ide/install.sh
 sh $BASE_DIR/istio/install.sh
 
 sh $BASE_DIR/java/install.sh
+
+sh $BASE_DIR/docker/install.sh
 
 sh $BASE_DIR/k8s/install.sh
 
