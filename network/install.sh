@@ -5,10 +5,7 @@ mtr -v
 echo 🍆 开始安装网络测速工具speedtest
 brew tap teamookla/speedtest
 brew update
-brew install speedtest --force
+echo -y | brew install speedtest --force
 
 echo 🍆 speedtest版本
 speedtest -v
-
-echo 🍆 开始测试当前网速
-speedtest
