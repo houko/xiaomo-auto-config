@@ -12,6 +12,8 @@ git pull
 
 sh $BASE_DIR/brew/install.sh
 
+sh $BASE_DIR/nodejs/install.sh
+
 sh $BASE_DIR/aws/install.sh
 
 sh $BASE_DIR/browser/install.sh
@@ -41,8 +43,6 @@ sh $BASE_DIR/mac/install.sh
 sh $BASE_DIR/media/install.sh
 
 sh $BASE_DIR/network/install.sh
-
-sh $BASE_DIR/nodejs/install.sh
 
 #sh $BASE_DIR/podman/install.sh
 
