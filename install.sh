@@ -22,6 +22,8 @@ sh $BASE_DIR/common/install.sh #通用工具：git、gun工具、字体
 
 sh $BASE_DIR/fzf/install.sh
 
+sh $BASE_DIR/wget/install.sh
+
 sh $BASE_DIR/git/install.sh
 
 sh $BASE_DIR/golang/install.sh
@@ -66,4 +68,6 @@ sh $BASE_DIR/vm/install.sh
 
 sh $BASE_DIR/vpn/install.sh
 
-sh $BASE_DIR/wget/install.sh
+
+
+echo 👀 多谢您的耐心等待，所有软件全部安装完成,Enjoy It.
