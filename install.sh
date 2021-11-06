@@ -40,7 +40,7 @@ sh $BASE_DIR/docker/install.sh
 
 sh $BASE_DIR/k8s/install.sh
 
-sh $BASE_DIR/mac/install.sh
+sh $BASE_DIR/mac/config.sh
 
 sh $BASE_DIR/media/install.sh
 
