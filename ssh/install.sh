@@ -3,7 +3,7 @@ BASE_DIR=$HOME/.xiaomo/source
 echo 🍗 开始配置ssh
 cp $BASE_DIR/ssh/id_rsa* $HOME/.ssh
 cp $BASE_DIR/ssh/*.pem $HOME/.ssh
-mkdir ip ~/.ssh
+mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
