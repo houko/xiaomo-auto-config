@@ -2,13 +2,14 @@
 
 BASE_DIR="$HOME/.xiaomo/source"
 
+# 需要先安装依赖软件
+sh $BASE_DIR/common/install.sh #通用工具：git、gun工具、字体
+
 sh $BASE_DIR/brew/install.sh
 
 sh $BASE_DIR/aws/install.sh
 
 sh $BASE_DIR/browser/install.sh
-
-sh $BASE_DIR/common/install.sh #通用工具：git、gun工具、字体
 
 sh $BASE_DIR/docker/install.sh
 
