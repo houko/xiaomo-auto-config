@@ -12,6 +12,3 @@ echo 自动更新和清理
 brew update
 brew upgrade
 brew cleanup
-
-echo 生成更新并清理brew管理的软件的别名 brewup
-echo "alias brewup='brew update && brew upgrade && brew cleanup'" >>$BASE_DIR/shell/alias.sh
