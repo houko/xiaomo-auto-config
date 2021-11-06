@@ -9,9 +9,9 @@
 
 # install
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/source/master/bootstrap/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/install.sh)"
 
 # uninstall
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/source/master/bootstrap/uninstall.sh)"
+bash -c "$(https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/uninstall.sh)"
 
 
