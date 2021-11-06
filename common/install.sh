@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="$HOME/.g123"
+BASE_DIR="$HOME/.xiaomo"
 brew install git
 
 xcode-select --install 2>/dev/null || true
@@ -12,10 +12,5 @@ brew install findutils
 brew install gawk
 brew install gnu-sed
 
-
-  # google fira-code字体
-  brew install font-fira-code
-
-
-
-
+# google fira-code字体
+brew install font-fira-code

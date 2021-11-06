@@ -3,3 +3,6 @@
 *.pyc
 .coverage
 *.egg-info
+node_modules
+*.iml
+.idea

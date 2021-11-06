@@ -1,4 +1,4 @@
-# 网络测试工具 需要sudo权限 sudo mtr baidu.com
+# 网络测试工具(可以拿到所有的服务器ip) 需要sudo权限 sudo mtr baidu.com
 brew install mtr
 mtr -v
 

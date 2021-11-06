@@ -55,15 +55,14 @@ alias key="ssh-keygen"
 
 # kubectl setting
 alias k=kubectl
+alias kubeclt=kubectl
+alias kubctl=kubectl
 alias kx=kubectx
 alias kg='kubectl get'
 alias kgp='kubectl get pods'
+alias kgn='kubectl get nodes'
 alias kgpjson='kubectl get pods -o=json'
 alias kgpn='kubectl get pods -n'
-
-#tunnelblick setting
-# shellcheck disable=SC2142
-alias vpn='sh $HOME/.xiaomo/source/viscosity.sh'
 
 # tmux
 alias tl='tmux list-sessions'

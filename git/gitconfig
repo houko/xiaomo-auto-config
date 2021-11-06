@@ -11,7 +11,7 @@
     idff = diff
 
 [core]
-    excludesfile = ~/.mac_config/source/gitignore_global
+    excludesfile = ~/.xiaomo/source/gitignore_global
     pager = cat
     quotepath = false
 [push]

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="$HOME/.mac_config"
+BASE_DIR="$HOME/.xiaomo"
 
 # configuration steps
 rmGithubSource() {

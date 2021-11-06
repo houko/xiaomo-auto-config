@@ -7,7 +7,7 @@ brew install cyberduck
 # vscode
 brew install visual-studio-code
 
-# client
+# ssh client
 brew install royal-tsx
 
 # sublime
@@ -16,10 +16,14 @@ brew install sublime-text
 # idea
 brew install intellij-idea
 
-# goland
-brew install goland
-
+# tmux
 brew install tmux
+
+# emacs
+brew install emacs
 
 # 数据库连接软件
 brew install sequel-ace
+
+# tableplus免费版
+# https://xclient.info/s/tableplus.html#versions
