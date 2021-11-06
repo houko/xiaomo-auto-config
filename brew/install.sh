@@ -2,6 +2,8 @@ BASE_DIR="$HOME/.xiaomo/source"
 
 echo 开始安装brew
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 添加eval到zprofile和shellenv
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>$HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
