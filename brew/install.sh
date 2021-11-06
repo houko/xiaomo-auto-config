@@ -6,6 +6,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 echo 添加eval到zprofile和shellenv
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>$HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+source $HOME/.zprofile
 
 echo 添加cask和cask-fonts源
 brew tap homebrew/cask
