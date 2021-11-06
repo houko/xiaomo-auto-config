@@ -18,6 +18,7 @@ brew install intellij-idea
 
 echo 🍎 开始安装emacs
 brew install emacs
+brew services start emacs
 
 echo 🍎 开始安装数据库客户端sequel-ace
 brew install sequel-ace
