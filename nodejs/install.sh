@@ -9,8 +9,8 @@ node -v
 npm -v
 
 echo 🍑 开始安装yarn
-npm install -g yarn
+sudo npm install -g yarn
 yarn -v
 
 echo 🍑 开始安装http-server
-npm install -g http-server
+sudo npm install -g http-server
