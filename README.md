@@ -11,10 +11,10 @@
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/install.sh)"    
 
-
-curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/install.sh | sh
-
 # uninstall
 bash -c "$(https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/uninstall.sh)"
 
+# macos vm
+you will get the error bad cpu type in executable   
 
+`softwareupdate --install-rosetta`
