@@ -15,6 +15,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/linux-mac-auto-con
 bash -c "$(https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/uninstall.sh)"
 
 # macos vm
-you will get the error bad cpu type in executable   
+you will get the error: [bad cpu type in executable](https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable)    
 
 `softwareupdate --install-rosetta`
