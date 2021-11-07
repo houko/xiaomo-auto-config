@@ -1,9 +1,9 @@
 echo 🐬 开始安装golang
 brew install go
 
-# fixme 这里有报错
 echo 🐬 开始安装golang多版本控制工具gvm
-bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+bash -c "(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)" | sh
+source "$HOME"/.gvm/scripts/gvm
 
 echo 🐬 开始安装golang1.17
 gvm install 1.17
