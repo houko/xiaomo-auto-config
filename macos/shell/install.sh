@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo/source"
+MAC_BASE_DIR="$HOME/.xiaomo/source/macos"
 
 echo 安装检测shell语法是否有错的脚本shellcheck
 brew install shellcheck
@@ -16,11 +16,11 @@ echo 🍇 开始安装zsh语法高亮
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
 
 echo 🍇 生成alias软连接
-ln -sf "$BASE_DIR/shell/alias.sh" "$HOME/.alias"
+ln -sf "$MAC_BASE_DIR/shell/alias.sh" "$HOME/.alias"
 
 echo 🍇 生成zshrc配置软连接
 rm -rf "$HOME/.zshrc"
-ln -sf "$BASE_DIR/shell/zshrc" "$HOME/.zshrc"
+ln -sf "$MAC_BASE_DIR/shell/zshrc" "$HOME/.zshrc"
 
 echo 🍇 生成inputrc软连接
-ln -sf "$BASE_DIR/inputrc.sh" "$HOME/.inputrc"
+ln -sf "$MAC_BASE_DIR/inputrc.sh" "$HOME/.inputrc"

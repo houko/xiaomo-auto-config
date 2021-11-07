@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo/source"
+MAC_BASE_DIR="$HOME/.xiaomo/source/macos"
 
 echo 🍴 开始安装vpn工具viscosity
 brew install viscosity

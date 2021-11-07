@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BASE_DIR="$HOME/.xiaomo/source"
+MAC_BASE_DIR="$HOME/.xiaomo/source/macos"
 
 # configuration steps
 rmGithubSource() {
-  rm -rf "$BASE_DIR"
+  rm -rf "$MAC_BASE_DIR"
 }
 
 # https://formulae.brew.sh/formula/

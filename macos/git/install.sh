@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo/source"
+MAC_BASE_DIR="$HOME/.xiaomo/source/macos"
 
 echo 🐱 开始安装github cli
 brew install gh
@@ -8,4 +8,4 @@ brew install tig
 tig -v
 
 echo 🐱 开始设置git配置项和全局忽略文件
-ln -sf "$BASE_DIR/git/gitconfig" "$HOME/.gitconfig"
+ln -sf "$MAC_BASE_DIR/git/gitconfig" "$HOME/.gitconfig"

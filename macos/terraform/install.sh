@@ -11,4 +11,4 @@ echo 🍧 当前terraform版本
 terraform -v
 
 echo 🍧 生成terraform配置软连接
-ln -sf "$BASE_DIR/terraform/terrmaformrc" "$HOME/.terrmaformrc"
+ln -sf "$MAC_BASE_DIR/terraform/terrmaformrc" "$HOME/.terrmaformrc"
