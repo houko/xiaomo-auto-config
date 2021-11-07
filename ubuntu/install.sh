@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="$HOME/.xiaomo"
+BASE_DIR="$HOME/.xiaomo/source"
 echo export BASE_DIR=$BASE_DIR >>~/.bashrc
 # shellcheck source=/Users/xiaomo/.bashrc
 source ~/.bashrc
@@ -14,9 +14,9 @@ echo '######################################################'
 echo '#################### 开始安装git.....'
 echo '######################################################'
 
-mkdir -p "$BASE_DIR/source"
-cd $BASE_DIR/source
-git clone https://github.com/houko/macOrLinuxConfigSetup.git "$BASE_DIR/source"
+mkdir -p "$BASE_DIR"
+cd $BASE_DIR
+git clone https://github.com/houko/macOrLinuxConfigSetup.git "$BASE_DIR"
 echo '######################################################'
 echo clone代码到${BASE_DIR}/source下
 echo '######################################################'
@@ -26,7 +26,7 @@ echo '######################################################'
 echo '################# 切换到ubuntu20分支下 #################'
 echo '######################################################'
 
-sh $BASE_DIR/source/ubuntu/init_ubuntu.sh
+sh $BASE_DIR/ubuntu/init_ubuntu.sh
 echo '######################################################'
 echo '################# 开始初始化ubuntu设置 #################'
 echo '######################################################'
@@ -35,40 +35,40 @@ echo '######################################################'
 echo '######################################################'
 echo '#################### 开始设置inputrc ###################'
 echo '######################################################'
-sh $BASE_DIR/source/input/init_inputrc.sh
+sh $BASE_DIR/input/init_inputrc.sh
 
 echo '######################################################'
 echo '################# 开始配置环境变量和别名 #################'
 echo '######################################################'
-sh $BASE_DIR/source/env/init_env.sh
+sh $BASE_DIR/env/init_env.sh
 
 echo '######################################################'
 echo '#################### 开始安装vim环境 ###################'
 echo '######################################################'
-sh $BASE_DIR/source/vim/init_vim.sh
+sh $BASE_DIR/vim/init_vim.sh
 
 echo '######################################################'
 echo '#################### 安装并开启ssh工具 #################'
 echo '######################################################'
-sh $BASE_DIR/source/ssh/init_ssh.sh
+sh $BASE_DIR/ssh/init_ssh.sh
 
 echo '######################################################'
 echo '#################### 开始安装docker ###################'
 echo '######################################################'
-sh $BASE_DIR/source/docker/init_docker.sh
+sh $BASE_DIR/docker/init_docker.sh
 
 echo '######################################################'
 echo '################## 开始安装k8s及周边工具 ################'
 echo '######################################################'
-sh $BASE_DIR/source/k8s/init_k8s.sh
-sh $BASE_DIR/source/k8s/init_kubectx.sh
+sh $BASE_DIR/k8s/init_k8s.sh
+sh $BASE_DIR/k8s/init_kubectx.sh
 
 echo '######################################################'
 echo '################### 开始安装fzf检索工具 #################'
 echo '######################################################'
-sh $BASE_DIR/source/fzf/init_fzf.sh
+sh $BASE_DIR/fzf/init_fzf.sh
 
 echo '######################################################'
 echo '#################### 开始安装zsh工具 ###################'
 echo '######################################################'
-sh $BASE_DIR/source/zsh/init_zsh.sh
+sh $BASE_DIR/zsh/init_zsh.sh

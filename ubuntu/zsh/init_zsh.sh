@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo"
+BASE_DIR="$HOME/.xiaomo/source"
 source ~/.bashrc
 apt install zsh -y
 usermod -s /bin/zsh $(whoami)
@@ -9,5 +9,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
 
 # 删除原来的.zsh文件并将配置好的代码链接到zsh
-ln -sf "$BASE_DIR/source/zsh/zshrc" "$HOME/.zshrc"
-echo "$BASE_DIR/source/zsh/zshrc" link to "$HOME/.zshrc"
+ln -sf "$BASE_DIR/zsh/zshrc" "$HOME/.zshrc"
+echo "$BASE_DIR/zsh/zshrc" link to "$HOME/.zshrc"

@@ -1,6 +1,3 @@
-BASE_DIR="$HOME/.xiaomo"
-ln -sf "$BASE_DIR/source/env/alias.sh" "$HOME/.alias"
-echo "$BASE_DIR/source/env/alias.sh" link to "$HOME/.alias"
-
-ln -sf "$BASE_DIR/source/env/envrc.sh" "$HOME/.envrc"
-echo "$BASE_DIR/source/env/envrc.sh" link to "$HOME/.envrc"
+BASE_DIR="$HOME/.xiaomo/source"
+echo 将~/.alias文件链接到alish.sh别名配置
+ln -sf "$BASE_DIR/env/alias.sh" "$HOME/.alias"

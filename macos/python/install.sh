@@ -1,6 +1,6 @@
 BASE_DIR=$HOME/.xiaomo/source/
 echo 🍉 更新pip3的版本
-sudo python3 -m pip install -U pip
+python3 -m pip install --upgrade pip
 
 echo 🍉 pip3的版本
 pip --version
@@ -13,4 +13,3 @@ sudo ln -sf /usr/local/bin/python3 /usr/local/bin/python
 
 echo 🍉 创建pip软连接
 sudo ln -sf /usr/local/bin/pip3 /usr/local/bin/pip
-

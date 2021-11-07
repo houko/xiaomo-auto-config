@@ -58,6 +58,8 @@ sh $BASE_DIR/sns/install.sh
 
 sh $BASE_DIR/ssh/install.sh
 
+sh $BASE_DIR/supervisor/install.sh
+
 sh $BASE_DIR/terraform/install.sh
 
 sh $BASE_DIR/tmux/install.sh
