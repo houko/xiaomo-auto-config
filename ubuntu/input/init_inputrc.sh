@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo/source"
+UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu"
 
-ln -sf "$BASE_DIR/input/inputrc.sh" "$HOME/.inputrc"
-echo "$BASE_DIR/input/inputrc.sh" link to "$HOME/.inputrc"
+ln -sf "UBUNTU_BASE_DIR/input/inputrc.sh" "$HOME/.inputrc"
+echo "UBUNTU_BASE_DIR/input/inputrc.sh" link to "$HOME/.inputrc"

@@ -1,4 +1,4 @@
-BASE_DIR="$HOME/.xiaomo/source"
+UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu"
 apt install git -y
-ln -sf "$BASE_DIR/git/gitconfig" "$HOME/.gitconfig"
-echo "$BASE_DIR/git/gitconfig" link to "$HOME/.gitconfig"
+ln -sf "UBUNTU_BASE_DIR/git/gitconfig" "$HOME/.gitconfig"
+echo "UBUNTU_BASE_DIR/git/gitconfig" link to "$HOME/.gitconfig"
