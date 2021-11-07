@@ -8,4 +8,4 @@ brew install tig
 tig -v
 
 echo 🐱 开始设置git配置项和全局忽略文件
-ln -sf "$MAC_BASE_DIR/git/gitconfig" "$HOME/.gitconfig"
+ln -sf ""$MAC_BASE_DIR"/git/gitconfig" "$HOME/.gitconfig"
