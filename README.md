@@ -1,20 +1,44 @@
-# 前提条件
+# macos
+
+## 前提条件
 
 安装xcode
 
-# 注意事项
+## 注意事项
 
 - 在默认终端下执行命令
 - 安装时需要多次输入管理员用户密码
 
-# install
+## install
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/install.sh)"    
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/install.sh)"
 
-# uninstall
+## uninstall
+
 bash -c "$(https://raw.githubusercontent.com/houko/linux-mac-auto-config/macos/uninstall.sh)"
 
-# macos vm
-you will get the error: [bad cpu type in executable](https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable)    
+## macos vm
+
+you will get the
+error: [bad cpu type in executable](https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable)
 
 `softwareupdate --install-rosetta`
+
+# ubuntu
+
+## change root(if you are root please skip this)
+
+- sudo -i
+- passwd root
+
+## prepare
+
+- apt update -y && apt upgrade -y && apt install curl
+
+## install
+
+- curl -L https://raw.githubusercontent.com/houko/LinuxMacSetup/ubuntu20/install.sh | sh
+
+## kubeadm
+
+kubeadm init
