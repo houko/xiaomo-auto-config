@@ -21,7 +21,6 @@ git clone https://github.com/houko/macOrLinuxConfigSetup.git "$UBUNTU_BASE_DIR"
 echo '######################################################'
 echo clone代码到"${UBUNTU_BASE_DIR}"/source下
 echo '######################################################'
-git checkout ubuntu20
 git pull
 echo '######################################################'
 echo '################# 切换到ubuntu20分支下 #################'
