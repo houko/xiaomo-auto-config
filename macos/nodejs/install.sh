@@ -6,6 +6,7 @@ sudo n 14
 node -v
 
 # npm
+sudo npm install -g npm
 npm -v
 
 echo 🍑 开始安装yarn
