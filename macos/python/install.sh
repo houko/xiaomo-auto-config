@@ -1,4 +1,3 @@
-BASE_DIR=$HOME/.xiaomo/source/
 echo 🍉 更新pip3的版本
 python3 -m pip install --upgrade pip
 
