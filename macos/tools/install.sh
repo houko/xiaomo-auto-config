@@ -43,3 +43,6 @@ brew install drawio
 
 echo 🍮 开始安装屏幕亮度控制工具monitorcontrol
 brew install monitorcontrol
+
+echo 🍮 开始安装剪贴板管理工具maccy
+brew install maccy
