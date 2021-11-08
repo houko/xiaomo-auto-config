@@ -8,4 +8,10 @@ jenv doctor
 
 echo 🍓 java版本
 jenv global 11
-java --version
+
+echo 🍓 安装maven插件
+jenv enable-plugin export
+# shellcheck disable=SC2093
+exec "$SHELL" -l
+jenv enable-plugin maven
+mvn -v
