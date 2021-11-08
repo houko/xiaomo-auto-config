@@ -72,6 +72,10 @@ alias ts='tmux new-session -s'
 # ide
 alias typora="open -a typora"
 
+#vpn
+# shellcheck disable=SC2139
+alias vpn="sh $HOME/.xiaomo/source/macos/vpn/viscosity.sh"
+
 # update
 # shellcheck disable=SC2139
 alias update="sh $HOME/.xiaomo/source/macos/install.sh"
