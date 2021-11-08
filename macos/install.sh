@@ -70,4 +70,4 @@ sh "$MAC_BASE_DIR"/vpn/install.sh
 
 
 
-echo 👀 多谢您的耐心等待,所有软件全部安装完成,Enjoy It.
+echo 👀 感谢您的耐心等待,所有软件己全部安装完成,Enjoy It.

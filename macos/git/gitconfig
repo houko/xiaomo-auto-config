@@ -1,5 +1,5 @@
 [user]
-    name = suzukaze hazuki
+    name = Evan
     email = suzukaze.hazuki2020@gmail.com
 
 [alias]
@@ -34,3 +34,5 @@
     prompt = false
 [difftool "icdiff"]
     cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
+[pull]
+	ff = only
