@@ -75,3 +75,5 @@ alias typora="open -a typora"
 # update
 # shellcheck disable=SC2139
 alias update="sh $HOME/.xiaomo/source/macos/install.sh"
+# shellcheck disable=SC2139
+alias pull="sh $HOME/.xiaomo/source/macos/git/pull_all.sh"

@@ -4,6 +4,7 @@ for dir in $(ls .); do
     echo "$dir"
     # shellcheck disable=SC2164
     cd "$dir"
+    git fetch
     git pull
     # shellcheck disable=SC2103
     cd ..
