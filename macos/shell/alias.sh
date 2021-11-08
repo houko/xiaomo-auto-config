@@ -71,3 +71,7 @@ alias ts='tmux new-session -s'
 
 # ide
 alias typora="open -a typora"
+
+# update
+# shellcheck disable=SC2139
+alias update="git pull $HOME/.xiaomo/source/macos"
