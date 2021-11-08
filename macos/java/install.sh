@@ -10,8 +10,5 @@ jenv global 11
 eval "$(jenv init -)"
 
 echo 🍓 安装maven插件
-jenv enable-plugin export
-# shellcheck disable=SC2093
-exec "$SHELL" -l
-jenv enable-plugin maven
+brew install maven
 mvn -v
