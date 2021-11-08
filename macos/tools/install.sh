@@ -38,5 +38,8 @@ brew install karabiner-elements
 echo 🍮 开始装google drive
 brew install google-drive
 
-echo 🍮 开始安装流程图、UML工具drawio
+echo 🍮 开始安装流程图,UML工具drawio
 brew install drawio
+
+echo 🍮 开始安装屏幕亮度控制工具monitorcontrol
+brew install monitorcontrol
