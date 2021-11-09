@@ -55,11 +55,10 @@ alias .....='cd ../../../..'
 alias k=kubectl
 alias kubeclt=kubectl
 alias kubctl=kubectl
-alias kx=kubectx
+alias kc=kubectx
 alias kg='kubectl get'
 alias kgp='kubectl get pods'
 alias kgpa='kubectl get pods -A'
-alias kgn='kubectl get nodes'
 alias kgpjson='kubectl get pods -o=json'
 alias kgpn='kubectl get pods -n'
 

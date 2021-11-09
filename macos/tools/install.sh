@@ -46,3 +46,6 @@ brew install monitorcontrol
 
 echo 🍮 开始安装剪贴板管理工具maccy
 brew install maccy
+
+echo 🍮 开始安装1password-cli
+brew install 1password-cli
