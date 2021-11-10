@@ -1,4 +1,4 @@
-BASE_DIR=$HOME/.xiaomo/source
+MAC_BASE_DIR=$HOME/.xiaomo/source/macos
 
 echo 🍗 开始配置ssh
 mkdir -p $HOME/.ssh
