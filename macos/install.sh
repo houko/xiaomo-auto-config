@@ -1,9 +1,10 @@
 #!/bin/bash
 
-MAC_BASE_DIR="$HOME/.xiaomo/source"
+BASE_DIR="$HOME/.xiaomo/source"
+MAC_BASE_DIR="$HOME/.xiaomo/source/macos"
 
 echo 开始拉取auto dev脚本到本地
-git clone https://github.com/houko/xiaomo-auto-config.git "$MAC_BASE_DIR"
+git clone https://github.com/houko/xiaomo-auto-config.git "$BASE_DIR"
 echo 拉取最新代码
 # shellcheck disable=SC2164
 cd "$MAC_BASE_DIR"

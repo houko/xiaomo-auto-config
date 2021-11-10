@@ -1,6 +1,8 @@
 #!/bin/bash
 
-UBUNTU_BASE_DIR="$HOME/.xiaomo/source"
+BASE_DIR="$HOME/.xiaomo/source"
+UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu"
+
 echo export BASE_DIR=$UBUNTU_BASE_DIR >>~/.bashrc
 # shellcheck source=/Users/xiaomo/.bashrc
 source ~/.bashrc
@@ -14,16 +16,16 @@ echo '######################################################'
 echo '#################### 开始安装git.....'
 echo '######################################################'
 
-mkdir -p "$UBUNTU_BASE_DIR"
+mkdir -p "$BASE_DIR"
 # shellcheck disable=SC2164
-cd "$UBUNTU_BASE_DIR"
-git clone https://github.com/houko/macOrLinuxConfigSetup.git "$UBUNTU_BASE_DIR"
+cd "$BASE_DIR"
+git clone https://github.com/houko/macOrLinuxConfigSetup.git "$BASE_DIR"
 echo '######################################################'
-echo clone代码到"${UBUNTU_BASE_DIR}"/source下
+echo clone代码到"${BASE_DIR}"/source下
 echo '######################################################'
 git pull
 
-sh "$UBUNTU_BASE_DIR"/ubuntu/init_ubuntu.sh
+sh "$UBUNTU_BASE_DIR"/init_ubuntu.sh
 echo '######################################################'
 echo '################# 开始初始化ubuntu设置 #################'
 echo '######################################################'
