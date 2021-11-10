@@ -1,6 +1,6 @@
 #!/bin/bash
 
-UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu/"
+UBUNTU_BASE_DIR="$HOME/.xiaomo/source"
 echo export BASE_DIR=$UBUNTU_BASE_DIR >>~/.bashrc
 # shellcheck source=/Users/xiaomo/.bashrc
 source ~/.bashrc
