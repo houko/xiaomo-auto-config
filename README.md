@@ -11,11 +11,11 @@
 
 ## install
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/xiaomo-auto-config/macos/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/houko/xiaomo-auto-config/master/macos/install.sh)"
 
 ## uninstall
 
-bash -c "$(https://raw.githubusercontent.com/houko/xiaomo-auto-config/macos/uninstall.sh)"
+bash -c "$(https://raw.githubusercontent.com/houko/xiaomo-auto-config/master/macos/uninstall.sh)"
 
 ## macos vm
 
@@ -37,7 +37,7 @@ error: [bad cpu type in executable](https://apple.stackexchange.com/questions/40
 
 ## install
 
-- curl -L https://raw.githubusercontent.com/houko/xiaomo-auto-config/ubuntu/install.sh | sh
+- curl -L https://raw.githubusercontent.com/houko/xiaomo-auto-config/master/ubuntu/install.sh | sh
 
 ## kubeadm
 
