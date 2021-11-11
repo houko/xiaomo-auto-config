@@ -71,6 +71,9 @@ alias ts='tmux new-session -s'
 # ide
 alias typora="open -a typora"
 
+# 加-N防止乱码
+alias tree="tree -N"
+
 #vpn
 # shellcheck disable=SC2139
 alias vpn="sh $HOME/.xiaomo/source/macos/vpn/viscosity.sh"
