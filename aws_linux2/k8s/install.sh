@@ -10,7 +10,7 @@ EOF
 
 
 yum update
-echo "开始安装kubectl"
+echo "🍡 开始安装kubectl"
 yum install -y kubectl kubeadm
 echo k8s版本
 kubectl version

@@ -1,8 +1,8 @@
-UBUNTU_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
+AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
 source ~/.bashrc
 sudo yum install zsh -y
 sudo yum install util-linux-user
-usermod -s /bin/zsh $(whoami)
+usermod -s /bin/zsh "$(whoami)"
 sudo chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
@@ -11,5 +11,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
 
 # 删除原来的.zsh文件并将配置好的代码链接到zsh
-ln -sf "$UBUNTU_BASE_DIR/zsh/zshrc" "$HOME/.zshrc"
-echo "$UBUNTU_BASE_DIR/zsh/zshrc" link to "$HOME/.zshrc"
+ln -sf "$AWS_BASE_DIR/zsh/zshrc" "$HOME/.zshrc"
+echo "$AWS_BASE_DIR/zsh/zshrc" link to "$HOME/.zshrc"

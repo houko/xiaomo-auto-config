@@ -1,8 +1,5 @@
 # shellcheck disable=SC2034
-AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2/"
-
-echo "开始安装git"
-sudo yum install git -y
+AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
 
 echo "git版本"
 git --version
