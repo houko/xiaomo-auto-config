@@ -1,0 +1,36 @@
+[user]
+    name = Evan
+    email = suzukaze.hazuki2020@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    p = push -u
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    un = reset --soft HEAD^
+    idff = diff
+
+[core]
+    excludesfile = ~/.source/source/gitignore_global
+    pager = cat
+    quotepath = false
+[push]
+    default = current
+[color]
+    ui = true
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[grep]
+    extendRegexp = true
+    lineNumber = true
+[branch]
+    autosetuprebase = always
+
+[diff]
+    tool = icdiff
+[difftool]
+    prompt = false
+[difftool "icdiff"]
+    cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
