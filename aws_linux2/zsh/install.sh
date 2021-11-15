@@ -1,4 +1,4 @@
-UBUNTU_BASE_DIR="$HOME/.xiaomo/source/aws_linux2/"
+UBUNTU_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
 source ~/.bashrc
 sudo yum install zsh -y
 sudo yum install util-linux-user
