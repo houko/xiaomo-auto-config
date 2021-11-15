@@ -83,3 +83,4 @@ alias vpn="sh $HOME/.xiaomo/source/macos/vpn/viscosity.sh"
 alias update="sh $HOME/.xiaomo/source/macos/install.sh"
 # shellcheck disable=SC2139
 alias pull="sh $HOME/.xiaomo/source/macos/git/pull_all.sh"
+alias port="nmap"
