@@ -7,7 +7,7 @@ echo 设置环境变量:BASE_DIR= ${BASE_DIR}
 mkdir -p "$BASE_DIR"
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
-git clone https://github.com/houko/xiaomo-auto-cconfig.git "$BASE_DIR"
+git clone https://github.com/houko/xiaomo-auto-config.git "$BASE_DIR"
 git pull
 
 echo '################# 开始初始化aws_linux2设置 #################'
