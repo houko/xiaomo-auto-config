@@ -2,7 +2,10 @@
 
 BASE_DIR="$HOME/.xiaomo/source"
 AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
-echo 设置环境变量:BASE_DIR= ${BASE_DIR}
+echo 设置环境变量:BASE_DIR= "${BASE_DIR}"
+
+echo '################# 开始安装git #################'
+sh "$AWS_BASE_DIR"/git/instal.sh
 
 mkdir -p "$BASE_DIR"
 # shellcheck disable=SC2164
