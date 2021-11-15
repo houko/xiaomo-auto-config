@@ -2,16 +2,12 @@
 
 BASE_DIR="$HOME/.xiaomo/source"
 AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
-
-echo export BASE_DIR=$BASE_DIR >>~/.bashrc
-source ~/.bashrc
 echo 设置环境变量:BASE_DIR= ${BASE_DIR}
 
 mkdir -p "$BASE_DIR"
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
 git clone https://github.com/houko/xiaomo-auto-cconfig.git "$BASE_DIR"
-echo clone代码到"${BASE_DIR}"/source下
 git pull
 
 echo '################# 开始初始化aws_linux2设置 #################'
