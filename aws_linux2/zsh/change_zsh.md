@@ -1,0 +1,1 @@
+https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
