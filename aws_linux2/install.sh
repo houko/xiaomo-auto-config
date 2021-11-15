@@ -3,7 +3,7 @@
 BASE_DIR="$HOME/.xiaomo/source"
 AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
 
-echo export BASE_DIR=$AWS_BASE_DIR >>~/.bashrc
+echo export BASE_DIR=$BASE_DIR >>~/.bashrc
 source ~/.bashrc
 echo 设置环境变量:BASE_DIR= ${BASE_DIR}
 

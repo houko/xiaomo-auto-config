@@ -43,17 +43,7 @@ error: [bad cpu type in executable](https://apple.stackexchange.com/questions/40
 
 kubeadm init
 
-
 # Amazon Linux 2
-
-## change root(if you are root please skip this)
-
-- sudo -i
-- passwd root
-
-## prepare
-
-- apt update -y && apt upgrade -y && apt install curl
 
 ## install
 
