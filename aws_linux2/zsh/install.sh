@@ -1,6 +1,6 @@
 UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu/"
 source ~/.bashrc
-apt install zsh -y
+sudo yum install zsh -y
 usermod -s /bin/zsh $(whoami)
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
