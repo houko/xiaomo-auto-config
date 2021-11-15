@@ -1,72 +1,36 @@
 #!/bin/bash
 
 BASE_DIR="$HOME/.xiaomo/source"
-UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu"
+AWS_BASE_DIR="$HOME/.xiaomo/source/aws_linux2"
 
-echo export BASE_DIR=$UBUNTU_BASE_DIR >>~/.bashrc
-# shellcheck source=/Users/xiaomo/.bashrc
+echo export BASE_DIR=$AWS_BASE_DIR >>~/.bashrc
 source ~/.bashrc
-echo '######################################################'
 echo 设置环境变量:BASE_DIR= ${BASE_DIR}
-echo '######################################################'
-
-# 安装git并配置
-apt install git -y
-echo '######################################################'
-echo '#################### 开始安装git.....'
-echo '######################################################'
 
 mkdir -p "$BASE_DIR"
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
-git clone https://github.com/houko/macOrLinuxConfigSetup.git "$BASE_DIR"
-echo '######################################################'
+git clone https://github.com/houko/xiaomo-auto-cconfig.git "$BASE_DIR"
 echo clone代码到"${BASE_DIR}"/source下
-echo '######################################################'
 git pull
 
-sh "$UBUNTU_BASE_DIR"/init_ubuntu.sh
-echo '######################################################'
-echo '################# 开始初始化ubuntu设置 #################'
-echo '######################################################'
+echo '################# 开始初始化aws_linux2设置 #################'
+sh "$AWS_BASE_DIR"/init_aws_linux2.sh
 
-echo '######################################################'
 echo '#################### 开始设置inputrc ###################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/input/init_inputrc.sh
+sh "$AWS_BASE_DIR"/input/init_inputrc.sh
 
-echo '######################################################'
 echo '################# 开始配置环境变量和别名 #################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/env/init_env.sh
+sh "$AWS_BASE_DIR"/env/install.sh
 
-echo '######################################################'
-echo '#################### 开始安装vim环境 ###################'
-echo '######################################################'
-sh $UBUNTU_BASE_DIR/vim/init_vim.sh
-
-echo '######################################################'
-echo '#################### 安装并开启ssh工具 #################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/ssh/init_ssh.sh
-
-echo '######################################################'
 echo '#################### 开始安装docker ###################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/docker/init_docker.sh
+sh "$AWS_BASE_DIR"/docker/install.sh
 
-echo '######################################################'
 echo '################## 开始安装k8s及周边工具 ################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/k8s/init_k8s.sh
-sh "$UBUNTU_BASE_DIR"/k8s/init_kubectx.sh
+sh "$AWS_BASE_DIR"/k8s/install.sh
 
-echo '######################################################'
 echo '################### 开始安装fzf检索工具 #################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/fzf/init_fzf.sh
+sh "$AWS_BASE_DIR"/fzf/install.sh
 
-echo '######################################################'
 echo '#################### 开始安装zsh工具 ###################'
-echo '######################################################'
-sh "$UBUNTU_BASE_DIR"/zsh/init_zsh.sh
+sh "$AWS_BASE_DIR"/zsh/install.sh
