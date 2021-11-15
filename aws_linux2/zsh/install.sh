@@ -1,7 +1,9 @@
 UBUNTU_BASE_DIR="$HOME/.xiaomo/source/ubuntu/"
 source ~/.bashrc
 sudo yum install zsh -y
+sudo yum install util-linux-user
 usermod -s /bin/zsh $(whoami)
+sudo chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
 # p10k configure 可以重新配置
