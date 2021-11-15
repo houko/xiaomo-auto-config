@@ -11,7 +11,7 @@ git clone https://github.com/houko/xiaomo-auto-config.git "$BASE_DIR"
 git pull
 
 echo '################# 开始初始化aws_linux2设置 #################'
-sh "$AWS_BASE_DIR"/init_aws_linux2.sh
+sh "$AWS_BASE_DIR"/init/init_aws_linux2.sh
 
 echo '#################### 开始设置inputrc ###################'
 sh "$AWS_BASE_DIR"/input/init_inputrc.sh
