@@ -1,5 +1,4 @@
 echo "🍡 开始安装n和node"
-sudo curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
-sudo bash n lts
+sudo yum install -y nodejs
 # Now node and npm are available
 sudo npm install -g n
