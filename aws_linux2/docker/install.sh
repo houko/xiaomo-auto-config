@@ -2,7 +2,7 @@ echo "🍉 开始安装docker"
 sudo amazon-linux-extras install -y docker
 
 echo "🍉 给ec2-user授权"
-sudo usermod -a -G docker ${whoami}
+sudo usermod -a -G docker $(whoami)
 
 echo "🍉 当前docker版本"
 docker version
