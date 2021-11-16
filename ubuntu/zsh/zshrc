@@ -30,7 +30,6 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 
 autoload -U +X bashcompinit && bashcompinit
 source ~/.alias
-source ~/.envrc
 
 
 
