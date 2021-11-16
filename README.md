@@ -43,7 +43,7 @@ error: [bad cpu type in executable](https://apple.stackexchange.com/questions/40
 
 kubeadm init
 
-# Amazon Linux 2
+# Amazon Linux 2(x86)
 
 ## install
 
