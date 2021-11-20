@@ -52,3 +52,6 @@ brew install 1password-cli
 
 echo 🍮 开始安装端口扫描工具nmap
 brew install nmap
+
+echo 🍮 开始安装工作流工具notion
+brew install notion
