@@ -38,7 +38,6 @@ export PATH=$TF_SWITCH_HOME:$PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # Kubernetes 自动补全
-complete -o nospace -C /opt/homebrew/bin/terraform terraform
 source <(kubectl completion zsh)
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
 complete -F __start_kubectl k
