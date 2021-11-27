@@ -53,6 +53,9 @@ brew install 1password-cli
 echo 🍮 开始安装端口扫描工具nmap
 brew install nmap
 
+echo 🍮 开始安装工作流工具notion
+brew install notion
+
 echo 🍮 开始安装系统监控软件runcat(类istat menu)
 brew install mas
 mas install 1429033973
