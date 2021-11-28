@@ -1,8 +1,8 @@
 echo 🍑 开始安装nodejs版本管理n
 brew install n
 
-echo 🍑 开始安装node14
-sudo n 14
+echo 🍑 开始安装node16
+sudo n 16
 node -v
 
 # npm
