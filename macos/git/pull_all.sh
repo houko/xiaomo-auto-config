@@ -6,6 +6,7 @@ for dir in $(ls .); do
     cd "$dir"
     git fetch
     git pull
+    yarn
     # shellcheck disable=SC2103
     cd ..
   fi
