@@ -1,9 +1,6 @@
 echo 🍎 开始安装markdown编辑器 typora
 brew install typora
 
-echo 🍎 开始安装s3管理GUI cyberduck
-brew install cyberduck
-
 echo 🍎 开始安装vscode
 brew install visual-studio-code
 
