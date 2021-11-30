@@ -84,3 +84,6 @@ alias update="sh $HOME/.xiaomo/source/macos/install.sh"
 # shellcheck disable=SC2139
 alias pull="sh $HOME/.xiaomo/source/macos/git/pull_all.sh"
 alias port="nmap"
+
+# 用法 random n ，n代表长度
+alias random="openssl rand -base64"
