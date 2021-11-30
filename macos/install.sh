@@ -35,7 +35,6 @@ sh "$MAC_BASE_DIR"/ide/install.sh
 
 sh "$MAC_BASE_DIR"/istio/install.sh
 
-sh "$MAC_BASE_DIR"/java/install.sh
 
 sh "$MAC_BASE_DIR"/docker/install.sh
 
@@ -71,6 +70,6 @@ sh "$MAC_BASE_DIR"/vm/install.sh
 
 sh "$MAC_BASE_DIR"/vpn/install.sh
 
-
+sh "$MAC_BASE_DIR"/java/install.sh
 
 echo 👀 感谢您的耐心等待,所有软件己全部安装完成,Enjoy It.
