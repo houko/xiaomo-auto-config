@@ -4,9 +4,6 @@ brew install typora
 echo 🍎 开始安装vscode
 brew install visual-studio-code
 
-echo 🍎 开始安装ssh客户端工具royal-tsx
-brew install royal-tsx
-
 echo 🍎 开始安装sublime-text
 brew install sublime-text
 
