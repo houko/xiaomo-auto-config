@@ -29,8 +29,6 @@ sh "$MAC_BASE_DIR"/git/install.sh
 
 sh "$MAC_BASE_DIR"/golang/install.sh
 
-sh "$MAC_BASE_DIR"/hammerspoon/install.sh
-
 sh "$MAC_BASE_DIR"/ide/install.sh
 
 sh "$MAC_BASE_DIR"/istio/install.sh
