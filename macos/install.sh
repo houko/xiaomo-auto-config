@@ -50,8 +50,6 @@ sh "$MAC_BASE_DIR"/python/install.sh
 
 sh "$MAC_BASE_DIR"/shell/install.sh
 
-sh "$MAC_BASE_DIR"/snape/install.sh
-
 sh "$MAC_BASE_DIR"/sns/install.sh
 
 sh "$MAC_BASE_DIR"/ssh/install.sh
