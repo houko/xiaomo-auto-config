@@ -38,7 +38,7 @@ sh "$MAC_BASE_DIR"/docker/install.sh
 
 sh "$MAC_BASE_DIR"/k8s/install.sh
 
-sh "$MAC_BASE_DIR"/mac/config.sh
+#sh "$MAC_BASE_DIR"/mac/config.sh
 
 sh "$MAC_BASE_DIR"/media/install.sh
 
