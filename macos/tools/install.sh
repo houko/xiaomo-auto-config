@@ -63,5 +63,6 @@ echo 🍮 开始安装系统监控软件runcat
 brew install mas
 mas install 1429033973
 
-echo 🍮 开始安装系统压测工具stress --cpu 16
+#  stress --cpu 16
+echo 🍮 开始安装系统压测工具stress
 brew install stress
