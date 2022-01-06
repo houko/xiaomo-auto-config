@@ -90,6 +90,7 @@ alias random="openssl rand -base64"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 # terraform
+alias t="terraform"
 alias tplan="terraform plan"
 alias "tapply"="terraform apply"
 alias "tdestroy"="terraform destroy"
