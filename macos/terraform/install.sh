@@ -10,5 +10,10 @@ tfenv use 1.1.2
 echo 🍧 当前terraform版本
 terraform -v
 
+echo 🍧 开始安装yor
+brew tap bridgecrewio/tap
+brew install bridgecrewio/tap/yor
+
+
 echo 🍧 生成terraform配置软连接
 ln -sf ""$MAC_BASE_DIR"/terraform/terrmaformrc" "$HOME/.terrmaformrc"
