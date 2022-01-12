@@ -26,8 +26,6 @@ brew install iterm2
 echo 🍮 开始安装api调试工具postman
 brew install --cask postman
 
-echo 🍮 开始安装alfred4
-brew install alfred
 
 echo 🍮 开始安装figma
 brew install figma
