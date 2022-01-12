@@ -46,7 +46,7 @@ kubeadm init
 # Amazon Linux 2(x86)
 
 ## install
-
+- sudo -i
 - curl -L https://raw.githubusercontent.com/houko/xiaomo-auto-config/master/aws_linux2/install.sh | sh
 
 ## kubeadm

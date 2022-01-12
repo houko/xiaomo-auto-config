@@ -14,6 +14,10 @@ echo 🍧 开始安装yor
 brew tap bridgecrewio/tap
 brew install bridgecrewio/tap/yor
 
+# localstack start -d
+echo 🍧 开始安装terraform模拟器
+brew install localstack
+
 
 echo 🍧 生成terraform配置软连接
 ln -sf ""$MAC_BASE_DIR"/terraform/terrmaformrc" "$HOME/.terrmaformrc"
