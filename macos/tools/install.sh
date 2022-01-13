@@ -65,5 +65,5 @@ mas install 1429033973
 echo 🍮 开始安装系统压测工具stress
 brew install stress
 
-echo 🍮 开始安装快捷键查看工具keycue
-brew install keycue
+echo 🍮 开始安装快捷键查看工具cheatsheet
+brew install cheatsheet
