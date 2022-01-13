@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/aws_global_suzukaze.pem ec2-user@$1
