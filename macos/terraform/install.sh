@@ -21,6 +21,9 @@ brew install localstack
 echo 🍧 开始安装terraform封装工具
 brew install terragrunt
 
+echo 🍧 开始安装漏洞检测工具trivy
+brew install aquasecurity/trivy/trivy
+
 
 echo 🍧 生成terraform配置软连接
 ln -sf ""$MAC_BASE_DIR"/terraform/terrmaformrc" "$HOME/.terrmaformrc"
