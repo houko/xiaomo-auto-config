@@ -18,6 +18,9 @@ brew install bridgecrewio/tap/yor
 echo 🍧 开始安装terraform模拟器
 brew install localstack
 
+echo 🍧 开始安装terraform封装工具
+brew install terragrunt
+
 
 echo 🍧 生成terraform配置软连接
 ln -sf ""$MAC_BASE_DIR"/terraform/terrmaformrc" "$HOME/.terrmaformrc"

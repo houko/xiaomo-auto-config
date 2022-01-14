@@ -91,6 +91,7 @@ alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 # terraform
 alias t="terraform"
+alias tg="terragrunt"
 alias tplan="terraform plan"
 alias "tapply"="terraform apply"
 alias "tdestroy"="terraform destroy"
