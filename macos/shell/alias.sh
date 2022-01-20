@@ -26,7 +26,7 @@ alias brewup='brew update && brew upgrade && brew cleanup'
 alias gssh='ssh-keygen -f id_rsa -N '
 
 # 查看外网Ip
-alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias eip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # 查看本机ip
 alias localhost='ipconfig getifaddr en0'
