@@ -67,3 +67,6 @@ brew install stress
 
 echo 🍮 开始安装快捷键查看工具cheatsheet
 brew install cheatsheet
+
+echo 🍮 开始安装cyberduck
+brew install cyberduck
