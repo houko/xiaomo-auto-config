@@ -12,3 +12,6 @@ brew install helm
 
 echo 🌽 开始安装k8s监控工具lens
 brew install lens
+
+echo 🌽 开始安装k8s包管理器kustomize
+brew install kustomize
