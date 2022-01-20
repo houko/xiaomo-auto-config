@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/aws_global_suzukaze.pem ubuntu@$1
