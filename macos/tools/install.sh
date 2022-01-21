@@ -8,6 +8,9 @@ tree --version
 echo 🍮 开始安装api查看工具dash
 brew install homebrew/cask/dash
 
+echo 🍮 开始安装homebrew gui
+brew install cakecask
+
 echo 🍮 开始安装keycastr
 brew install --cask keycastr
 
