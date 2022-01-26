@@ -73,3 +73,6 @@ brew install cheatsheet
 
 echo 🍮 开始安装cyberduck
 brew install cyberduck
+
+echo 🍮 开始安装jq
+brew install jq
