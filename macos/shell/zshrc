@@ -30,6 +30,7 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export TF_SWITCH_HOME=$HOME/.terraform.versions
 export PATH=$TF_SWITCH_HOME:$PATH
+export VAULT_ADDR='http://127.0.0.1:8200'
 
 # export JAVA_HOME=$HOME/.jenv/versions/11
 # export PATH=$JAVA_HOME/bin:$PATH
