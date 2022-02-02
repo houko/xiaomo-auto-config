@@ -11,10 +11,11 @@ echo 🌽 开始安装k8s包管理器helm
 brew install helm
 
 echo 🌽 开始安装密钥管理工具vault
-brew install vault
+brew tap hashicorp/tap
+brew install hashicorp/tap/vault
 
 echo 🌽 开始安装密钥存储库consul
-brew install consul
+brew install hashicorp/tap/consul
 
 echo 🌽 开始安装k8s监控工具lens
 brew install lens
