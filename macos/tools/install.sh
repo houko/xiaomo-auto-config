@@ -72,4 +72,7 @@ echo 🍮 开始安装cyberduck
 brew install cyberduck
 
 echo 🍮 开始安装jq
-brew install jq
+brew install jqe
+
+echo 🍮 开始安装ntfs工具mounty
+brew install --cask mounty
