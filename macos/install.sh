@@ -33,6 +33,7 @@ sh "$MAC_BASE_DIR"/ide/install.sh
 
 sh "$MAC_BASE_DIR"/istio/install.sh
 
+sh "$MAC_BASE_DIR"/flutter/install.sh
 
 sh "$MAC_BASE_DIR"/docker/install.sh
 
