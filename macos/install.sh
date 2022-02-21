@@ -9,6 +9,7 @@ echo 拉取最新代码
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
 git fetch
+git diff
 git reset --hard
 git pull
 
