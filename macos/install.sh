@@ -9,7 +9,8 @@ echo 拉取最新代码
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
 git fetch
-git pull -f
+git reset --hard
+git pull
 
 sh "$MAC_BASE_DIR"/brew/install.sh
 
