@@ -9,6 +9,8 @@ echo 拉取最新代码
 # shellcheck disable=SC2164
 cd "$BASE_DIR"
 git fetch
+git diff
+git reset --hard
 git pull
 
 sh "$MAC_BASE_DIR"/brew/install.sh
@@ -33,6 +35,7 @@ sh "$MAC_BASE_DIR"/ide/install.sh
 
 sh "$MAC_BASE_DIR"/istio/install.sh
 
+sh "$MAC_BASE_DIR"/flutter/install.sh
 
 sh "$MAC_BASE_DIR"/docker/install.sh
 
