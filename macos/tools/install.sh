@@ -86,7 +86,7 @@ brew install rider
 
 
 echo 🍮 开始安装androidsutdio
-brew install androidstudio
+brew install android-studio
 
 echo 🍮 开始安装协otato
 brew install flotato
