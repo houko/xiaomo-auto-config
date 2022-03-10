@@ -76,3 +76,15 @@ brew install jq
 
 echo 🍮 开始安装ntfs工具mounty
 brew install --cask mounty
+
+
+echo 🍮 开始安装数据库工具tableplus
+brew install tableplus
+
+echo 🍮 开始安装rider
+brew install rider
+
+
+echo 🍮 开始安装androidsutdio
+brew install androidstudio
+
