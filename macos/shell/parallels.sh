@@ -1,1 +1,1 @@
-ssh prarallels@$1
+ssh parallels@$1
