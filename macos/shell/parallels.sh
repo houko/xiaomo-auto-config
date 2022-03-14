@@ -1,0 +1,1 @@
+ssh prarallels@$1
