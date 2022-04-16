@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/xiaomo-prod.cer ec2-user@$1
