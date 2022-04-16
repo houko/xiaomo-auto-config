@@ -34,6 +34,8 @@ export VAULT_ADDR='http://127.0.0.1:8200'
 export VAULT_TOKEN="root"
 export PATH="$PATH:$HOME/DevTools/flutter/bin"
 
+unsetopt correct_all
+
 # export JAVA_HOME=$HOME/.jenv/versions/11
 # export PATH=$JAVA_HOME/bin:$PATH
 
@@ -46,7 +48,6 @@ source <(kubectl completion zsh)
 complete -F __start_kubectl k
 
 source ~/.alias
-
 
 
 
