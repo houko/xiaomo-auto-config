@@ -51,8 +51,6 @@
 | python3                                                      | 更新python版本和pip版本                             | 并安装了一些常用工具包                                       |
 | snape                                                        | 代码片段记录工具                                    | 默认设置了一些aws相关的片段                                  |
 | clickup                                                      | 项目协作工具(文档管理，任务追踪)                    | 经常出新feature,所以也经常会有小bug                          |
-| dingtalk                                                     | 工作即时沟通工具                                    | 即时聊天，文档，审批等                                       |
-| lark                                                         | OKR工具                                             | OKR项目管理                                                  |
 | wechat                                                       | 个人即时聊天工具                                    | 私人联系方式甚至超过了打电话                                 |
 | ssh                                                          | 默认设置了一套公私钥和一个pem密钥                   | 将公钥内容拷贝到需要连接的服务器                             |
 | terraform                                                    | `terraform cli`和多版本管理工具`tfenv`              | 配置了缓存目录`~/.terraform.d/plugin-cache`                  |

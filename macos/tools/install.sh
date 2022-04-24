@@ -88,5 +88,8 @@ brew install rider
 echo 🍮 开始安装androidsutdio
 brew install android-studio
 
-echo 🍮 开始安装协otato
+echo 🍮 开始安装fotato
 brew install flotato
+
+echo 🍮 开始安装slack
+brew install slack

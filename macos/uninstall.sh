@@ -88,12 +88,6 @@ homebrew() {
   # hosts管理工具
   brew uninstall switchhosts
 
-  # 钉钉
-  brew uninstall dingtalk
-
-  # lark
-  brew uninstall lark
-
   # s3管理工具
   brew uninstall cyberduck
 
@@ -101,6 +95,7 @@ homebrew() {
   brew uninstall wechat
   brew uninstall qq
   brew uninstall qqmusic
+  brew uninstall slack
 
   # 网易云音乐
   brew uninstall neteasemusic
