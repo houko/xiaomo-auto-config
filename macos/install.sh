@@ -71,4 +71,6 @@ sh "$MAC_BASE_DIR"/vpn/install.sh
 
 sh "$MAC_BASE_DIR"/java/install.sh
 
+sh "$MAC_BASE_DIR"/protoc/install.sh
+
 echo 👀 感谢您的耐心等待,所有软件己全部安装完成,Enjoy It.
