@@ -57,7 +57,7 @@ sh "$MAC_BASE_DIR"/sns/install.sh
 
 sh "$MAC_BASE_DIR"/ssh/install.sh
 
-sh "$MAC_BASE_DIR"/supervisor/install.sh
+#sh "$MAC_BASE_DIR"/supervisor/install.sh
 
 sh "$MAC_BASE_DIR"/terraform/install.sh
 

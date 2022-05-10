@@ -33,6 +33,7 @@ export PATH=$TF_SWITCH_HOME:$PATH
 export VAULT_ADDR='http://127.0.0.1:8200'
 export VAULT_TOKEN="root"
 export PATH="$PATH:$HOME/DevTools/flutter/bin"
+export GITHUB_TOKEN=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
 
 unsetopt correct_all
 
